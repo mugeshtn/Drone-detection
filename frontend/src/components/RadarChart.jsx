@@ -1,14 +1,14 @@
 import droneIcon from '../assets/drone-icon.webp';
 
 const RadarChart = ({ angle, classification }) => {
-  const center = 220;
-  const radius = 190;
+  const center = 250;
+  const radius = 210;
 
 
   return (
-    <div className="relative w-[600px] p-10 h-[530px] bg-gray-900 text-cyan-300 border border-cyan-500 rounded-md shadow-md">
+    <div className="relative w-[600px] p-10 h-[536px] bg-gray-900 text-cyan-300 border border-cyan-500 rounded-md shadow-md">
 
-      <div className="absolute top-4 right-6 border border-white p-4 px-5 rounded">
+      <div className="absolute top-4 right-6 border-2 border-cyan-700 p-4 px-5 rounded">
         <div className="text-sm text-white">CLASSIFICATION</div>
         <p className="text-xl font-bold text-cyan-300">
           <div className='flex items-center gap-1'>
